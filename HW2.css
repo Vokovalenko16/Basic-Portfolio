@@ -1,0 +1,61 @@
+body {
+    width: 100%; 
+    background-image: url("https://www.tilemountain.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/e/hellas_marble_floor_tile_439390_3.1524528194.jpg");
+    ,a
+}
+
+.TopBar1 {
+    height: 80px;
+    background-color: white;
+    font-size: 24px;
+    color: black;
+
+}
+.TopBar2 {
+    height: 80px;
+    width: 960px;
+    background-color: grey;
+    margin: auto;
+
+    
+}
+.Navbar1 {
+    font-size: 30px;
+    float: right;
+    text-decoration: none;
+    margin: 15px;
+}
+.Navbar1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.TopBar1 a:hover {
+    background-color: yellow;
+}
+
+.active {
+    background-color: turquoise;
+    height: 80px;
+    font-size: 40px;
+    color: white;
+    float: left;
+
+}
+.MyStory {
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    font: 38px;
+}
+.MyStory p {
+    font-size: 22px;
+}
+.VladPic {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
