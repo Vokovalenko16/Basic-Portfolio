@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+    <link rel = "stylesheet" href = HW2.css>
+</head>
+<body>
+
+<nav class="TopBar1">
+        <div class = "TopBar2">
+                <a class = "active"> Volodymyr Kovalenko</a>
+            <div class = "Navbar1">
+                <a href = "index.html"> About Me |</a>
+                <a href = "portfolio.html"> portfolio</a>
+                <a href=  "contact.html">| contact</a>
+            </div>
+        </div>
+</nav>
+
+<!--Ask about the point of using "section" and the other id that was next to the container-->
+<div class="container">
+        <section class="main-section">
+          <h1>Contact</h1>
+    <hr>
+    <!--Ask what "form" just like section has any functional signifance or just for easier to read code.-->
+          <form id="contact-form">
+            
+                <label for="name">Name </label> <br> 
+                <input type="text" id="name" name="name" placeholder="Volodymyr Kovalenko" required="required"> <br><br>
+                <label for="email">Email   </label> <br> 
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required"> <br><br>
+              <br> 
+                <label for="message">Message</label> <br>
+                <textarea id="message" name="message" required="required"></textarea>
+              <br>
+              <br>
+            </form>
+            <div class = "Submitbar">
+            <input type="submit">
+          </div>
+    
+        </section>
+    
+      </div>
+    
+</body>
+<!--Ask about how to put the footer in a way so the pages body doesnt have to vary in length -->
+<footer class = "end">
+  <p>Copyright</p>
+  </footer>
+      
+</html>
